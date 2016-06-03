@@ -11,7 +11,7 @@ template <typename T> void Process(const T& t)
 #define PROCESS(x) Process(x)
 ```
 
-PROCESS, can be called with any parameter except 'void', since call Process(void) is illegal, for instance code bellow won't compile:
+PROCESS can be called with any parameter except 'void', Process(void) is illegal, for instance code bellow won't compile:
 
 ```C++
 void GetVoid() {}
