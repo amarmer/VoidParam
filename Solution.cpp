@@ -13,7 +13,7 @@ void Process(const T& t)
 
 struct VoidParam {};
 
-inline void Process(VoidParam) 
+inline void Process(const VoidParam&) 
 {
     throw std::exception("'void' parameter is not allowed");
 }
