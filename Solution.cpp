@@ -27,7 +27,7 @@ T operator , (const T& t, const VoidParam&)
 
 #define PROCESS(x) Process((x, VoidParam()))
 
-void GetVoid() { }
+void GetVoid() {}
 
 void main()
 {
