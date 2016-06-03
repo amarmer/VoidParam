@@ -1,0 +1,43 @@
+#include <type_traits>
+#include <exception>
+
+using namespace std;
+
+
+template <typename T>
+void Process(const T& t)
+{
+    // Some code here
+}
+
+
+struct VoidParam {};
+
+inline void Process(VoidParam) 
+{
+    throw std::exception("'void' parameter is not allowed");
+}
+
+
+template <typename T>
+T operator , (const T& t, const VoidParam&)
+{
+    return t;
+}
+
+#define PROCESS(x) Process((x, VoidParam()))
+
+void GetVoid() { }
+
+int main()
+{
+    PROCESS(1);
+
+    PROCESS(GetVoid());
+    
+    PROCESS(void());
+
+	return 0;
+}
+
+
