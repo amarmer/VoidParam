@@ -29,15 +29,13 @@ T operator , (const T& t, const VoidParam&)
 
 void GetVoid() { }
 
-int main()
+void main()
 {
     PROCESS(1);
 
     PROCESS(GetVoid());
     
     PROCESS(void());
-
-	return 0;
 }
 
 
