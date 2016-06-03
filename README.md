@@ -3,10 +3,7 @@
 In the code:
 
 ```C++
-template <typename T> T Process(const T& t) 
-{ 
-   return t; 
-} 
+template <typename T> T Process(const T& t) { return t; } 
 
 #define PROCESS(x) Process(x)
 ```
