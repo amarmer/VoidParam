@@ -11,7 +11,7 @@ inline void Process(const VoidParam&)
 }
 
 template <typename T>
-T operator , (const T& t, const VoidParam&) { return t; }
+const T& operator , (const T& t, const VoidParam&) { return t; }
 
 #define PROCESS(x) Process((x, VoidParam()))
 
