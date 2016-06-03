@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 template <typename T>
 void Process(const T& t)
 {
