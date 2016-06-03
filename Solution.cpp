@@ -14,7 +14,7 @@ struct VoidParam {};
 
 inline void Process(const VoidParam&) 
 {
-    throw std::exception("'void' parameter is not allowed");
+    throw exception("'void' parameter is not allowed");
 }
 
 
