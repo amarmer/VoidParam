@@ -26,3 +26,5 @@ but call PROCESS(GetVoid()) (as well as PROCESS(void()) throws exception that 'v
 template <typename T> void Process(const T& t) 
 ``` 
 should remain without modifications.
+
+Solution is in Solution.cpp
