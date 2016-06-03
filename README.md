@@ -29,4 +29,4 @@ template <typename T> void Process(const T& t)
 ``` 
 should remain without modifications.
 
-Solution is in Solution.cpp
+Solution is in https://github.com/amarmer/VoidParam/blob/master/Solution.cppp
