@@ -1,5 +1,7 @@
 ##### VoidParam Puzzle
 
+In the code:
+
 ```C++
 template <typename T> void Process(const T& t) 
 { 
