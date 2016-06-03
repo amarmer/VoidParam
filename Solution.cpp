@@ -1,7 +1,4 @@
-#include <type_traits>
 #include <exception>
-
-using namespace std;
 
 template <typename T>
 void Process(const T& t)
@@ -14,7 +11,7 @@ struct VoidParam {};
 
 inline void Process(const VoidParam&) 
 {
-    throw exception("'void' parameter is not allowed");
+    throw std::exception("'void' parameter is not allowed");
 }
 
 
