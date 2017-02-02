@@ -1,4 +1,4 @@
-##### VoidParam Puzzle
+### VoidParam Puzzle
 
 Published in https://isocpp.org/blog/2016/06/voidparam-puzzle2
 
