@@ -5,7 +5,7 @@ Published in https://isocpp.org/blog/2016/06/voidparam-puzzle2
 In the code:
 
 ```C++
-template <typename T> T Process(const T& t) { return t; } 
+template <typename T> void Process(const T& t) {} 
 
 #define PROCESS(x) Process(x)
 ```
