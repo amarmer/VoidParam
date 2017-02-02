@@ -1,7 +1,6 @@
 #include <exception>
 
-template <typename T>
-T Process(const T& t) { return t; }
+template <typename T> void Process(const T& t) {}
 
 struct VoidParam {};
 
