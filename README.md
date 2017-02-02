@@ -19,7 +19,7 @@ PROCESS(GetVoid())
 ```
 
 What modifications should be made that for all parameters other than 'void', PROCESS works as before,
-but call PROCESS(GetVoid()) (as well as PROCESS(void()) throws exception that 'void' is not allowed as a parameter.
+but call PROCESS(GetVoid()) (as well as PROCESS(void())) throws exception that 'void' is not allowed as a parameter.
 Function 'Process' above should remain without modifications.
 
 
