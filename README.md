@@ -10,7 +10,7 @@ template <typename T> void Process(const T& t) {}
 #define PROCESS(x) Process(x)
 ```
 
-`PROCESS` can be called with any parameter except 'void', for instance code bellow won't compile:
+`PROCESS` can be called with any parameter except `void`, for instance code bellow won't compile:
 
 ```C++
 void GetVoid() {}
