@@ -18,8 +18,8 @@ void GetVoid() {}
 PROCESS(GetVoid())
 ```
 
-What modifications should be made in the implementation of PROCESS that for all parameters other than 'void', it works as before,
-but call PROCESS(GetVoid()) (as well as PROCESS(void())) throws exception that 'void' is not allowed as a parameter.
+What modifications should be made in the implementation of `PROCESS` that for all parameters other than 'void', it works as before,
+but call `PROCESS(GetVoid())` (as well as `PROCESS(void()))` throws exception that 'void' is not allowed as a parameter.
 Function `Process` above should remain without modifications.
 
 
