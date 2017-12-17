@@ -1,6 +1,6 @@
 ### VoidParam Puzzle
 
-Published in https://isocpp.org/blog/2016/06/voidparam-puzzle2 (seems nobody could solve it :-)
+Published in https://isocpp.org/blog/2016/06/voidparam-puzzle2 
 
 In the code:
 
