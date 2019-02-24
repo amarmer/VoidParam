@@ -7,7 +7,7 @@ struct VoidParam {};
 
 void Process(VoidParam&&) 
 {
-  throw std::runtime_error("`void` is not alloud as a parameter");
+  throw std::runtime_error("`void` is not allowed as a parameter");
 }
 
 template <typename T>
